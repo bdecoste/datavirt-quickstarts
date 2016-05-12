@@ -14,21 +14,27 @@
 	<name>DynamicVDB Data Federation Quickstart</name>
 	<description>This quickstart demonstrates how to federate data from a relational data source with a text file-based data source.</description>
 
-        <plugin>
-    		<groupId>org.codehaus.mojo</groupId>
-    		<artifactId>exec-maven-plugin</artifactId>
-    		<version>1.1.1</version>
-    		<executions>
-      			<execution>
-        			<id>setup</id>
-        			<phase>compile</phase>
-        			<goals>
-          				<goal>exec</goal>
-        			</goals>
-      			</execution>
-    		</executions>
-    		<configuration>
-      			<executable>env</executable>
-    		</configuration>
-  	</plugin>
+        <build>
+        	<pluginManagement>
+            		<plugins>       
+        			<plugin>
+    					<groupId>org.codehaus.mojo</groupId>
+    					<artifactId>exec-maven-plugin</artifactId>
+    					<version>1.1.1</version>
+    					<executions>
+      						<execution>
+        						<id>setup</id>
+        						<phase>compile</phase>
+        						<goals>
+          							<goal>exec</goal>
+        						</goals>
+      						</execution>
+    					</executions>
+    					<configuration>
+      						<executable>env</executable>
+    					</configuration>
+  				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 </project>
