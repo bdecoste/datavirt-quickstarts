@@ -1,5 +1,5 @@
 #Created by buildmetadata-maven-plugin 1.5.2 ( SHA: 25e07c12 ) 
-#Thu May 12 12:42:39 PDT 2016
+#Thu May 12 14:10:39 PDT 2016
 build.artifactId=teiid-quickstart-parent
 build.copyright.year=2013-2016
 build.date=12.05.2016
@@ -26,10 +26,10 @@ build.os.arch=amd64
 build.os.name=Linux
 build.os.version=3.10.0-327.13.1.el7.x86_64
 build.scmRevision.date=12.05.2016
-build.scmRevision.id=9f6501809f0eaa8380467d3048ddd6c9e1ff65f7
+build.scmRevision.id=b06f646a66a33a4d33e538117ba8ddfe37c0e732
 build.scmRevision.url=scm\:git\:git@github.com\:jboss-integration/jboss-integration-platform-bom.git/teiid-quickstart-parent
-build.timestamp.millis=1463082156840
+build.timestamp.millis=1463087437035
 build.user=root
 build.version=2.1.0.redhat-62-7
-build.version.full=2.1.0.redhat-62-7-20160512r9f6501809f0eaa8380467d3048ddd6c9e1ff65f7
+build.version.full=2.1.0.redhat-62-7-20160512rb06f646a66a33a4d33e538117ba8ddfe37c0e732
 build.year=2016
