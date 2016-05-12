@@ -1,0 +1,32 @@
+#Created by buildmetadata-maven-plugin 1.5.2 ( SHA: 25e07c12 ) 
+#Fri May 06 13:50:46 PDT 2016
+build.artifactId=teiid-quickstart-parent
+build.copyright.year=2013-2016
+build.date=06.05.2016
+build.date.pattern=dd.MM.yyyy
+build.groupId=org.jboss.teiid.quickstart
+build.host.name=ose3x-master.example.com
+build.java.compiler=HotSpot 64-Bit Tiered Compilers
+build.java.runtime.name=OpenJDK Runtime Environment
+build.java.runtime.version=1.8.0_91-b14
+build.java.vendor=Oracle Corporation
+build.java.vm=OpenJDK 64-Bit Server VM
+build.maven.execution.cmdline=clean install
+build.maven.execution.goals=clean, install
+build.maven.execution.isRoot=true
+build.maven.execution.profile.active.central=settings.xml
+build.maven.execution.profile.active.disable-enforce-managed-deps-rule=pom
+build.maven.execution.profile.active.jboss-community-repository=settings.xml
+build.maven.execution.profile.active.jboss-ea=settings.xml
+build.maven.execution.profile.active.jboss-eap-repository=settings.xml
+build.maven.execution.profiles.active=disable-enforce-managed-deps-rule, central, jboss-eap-repository, jboss-community-repository, jboss-ea
+build.maven.execution.project=org.jboss.teiid.quickstart\:teiid-quickstart-parent\:pom\:2.1.0.redhat-62-7
+build.maven.version=3.2.5
+build.os.arch=amd64
+build.os.name=Linux
+build.os.version=3.10.0-327.13.1.el7.x86_64
+build.timestamp.millis=1462567683876
+build.user=root
+build.version=2.1.0.redhat-62-7
+build.version.full=2.1.0.redhat-62-7-20160506
+build.year=2016
