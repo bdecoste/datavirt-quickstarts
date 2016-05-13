@@ -1,0 +1,9 @@
+                <datasource jndi-name="java:/accounts-ds" pool-name="h2" enabled="true" use-java-context="true">
+                    <connection-url>jdbc:h2:mem:accounts;INIT=RUNSCRIPT FROM '${jboss.home.dir}/teiidfiles/customer-schema.sql';</connection-url>
+                    <driver>h2</driver>
+                    <security>
+                        <user-name>sa</user-name>
+                        <password>sa</password>
+                    </security>
+                </datasource>
+

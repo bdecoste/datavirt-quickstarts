@@ -1,0 +1,29 @@
+		<resource-adapter id="fileQS">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
+                    <connection-definitions>
+                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/marketdata-file" enabled="true" use-java-context="true" po
+ol-name="fileDS">
+                            <config-property name="AllowParentPaths">
+                                true
+                            </config-property>
+                            <config-property name="ParentDirectory">
+                                ${jboss.home.dir}/teiidfiles/data/
+                            </config-property>
+                        </connection-definition>
+                    </connection-definitions>
+                </resource-adapter>
+                <resource-adapter id="fileQSExcel">
+                    <module slot="main" id="org.jboss.teiid.resource-adapter.file"/>
+                    <connection-definitions>
+                        <connection-definition class-name="org.teiid.resource.adapter.file.FileManagedConnectionFactory" jndi-name="java:/excel-file" enabled="true" use-java-context="true" pool-na
+me="fileDS">
+                            <config-property name="AllowParentPaths">
+                                true
+                            </config-property>
+                            <config-property name="ParentDirectory">
+                                ${jboss.home.dir}/teiidfiles/excelFiles/
+                            </config-property>
+                        </connection-definition>
+                    </connection-definitions>
+                </resource-adapter>
+
