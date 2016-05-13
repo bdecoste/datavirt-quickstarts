@@ -23,12 +23,12 @@
     					<executions>
       						<execution>
         						<id>setup</id>
-        						<phase>install</phase>
+        						<phase>package</phase>
         						<goals>
           							<goal>exec</goal>
         						</goals>
     							<configuration>
-      								<executable>env</executable>
+      								<executable>/home/jboss/source/dynamicvdb-datafederation/setup.sh</executable>
     							</configuration>
 						</execution>
 					</executions>
