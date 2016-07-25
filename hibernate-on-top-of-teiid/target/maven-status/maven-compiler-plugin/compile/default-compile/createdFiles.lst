@@ -1,0 +1,4 @@
+com/client/quickstart/hibernate4/model/ProductInfo.class
+com/client/quickstart/hibernate4/controller/ProductRegistration.class
+com/client/quickstart/hibernate4/data/ProductListProducer.class
+com/client/quickstart/hibernate4/util/Resources.class
