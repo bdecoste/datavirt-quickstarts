@@ -1,8 +1,8 @@
 #Created by buildmetadata-maven-plugin 1.5.2 ( SHA: 25e07c12 ) 
-#Thu May 12 14:10:39 PDT 2016
+#Mon Jul 25 07:43:48 PDT 2016
 build.artifactId=teiid-quickstart-parent
 build.copyright.year=2013-2016
-build.date=12.05.2016
+build.date=25.07.2016
 build.date.pattern=dd.MM.yyyy
 build.groupId=org.jboss.teiid.quickstart
 build.host.name=ose3x-master.example.com
@@ -11,7 +11,7 @@ build.java.runtime.name=OpenJDK Runtime Environment
 build.java.runtime.version=1.8.0_91-b14
 build.java.vendor=Oracle Corporation
 build.java.vm=OpenJDK 64-Bit Server VM
-build.maven.execution.cmdline=clean install
+build.maven.execution.cmdline=clean install -DskipTests
 build.maven.execution.goals=clean, install
 build.maven.execution.isRoot=true
 build.maven.execution.profile.active.central=settings.xml
@@ -21,15 +21,15 @@ build.maven.execution.profile.active.jboss-ea=settings.xml
 build.maven.execution.profile.active.jboss-eap-repository=settings.xml
 build.maven.execution.profiles.active=disable-enforce-managed-deps-rule, central, jboss-eap-repository, jboss-community-repository, jboss-ea
 build.maven.execution.project=org.jboss.teiid.quickstart\:teiid-quickstart-parent\:pom\:2.1.0.redhat-62-7
-build.maven.version=3.2.5
+build.maven.version=3.3.9
 build.os.arch=amd64
 build.os.name=Linux
-build.os.version=3.10.0-327.13.1.el7.x86_64
-build.scmRevision.date=12.05.2016
-build.scmRevision.id=b06f646a66a33a4d33e538117ba8ddfe37c0e732
+build.os.version=3.10.0-327.18.2.el7.x86_64
+build.scmRevision.date=13.05.2016
+build.scmRevision.id=1032454637b53e06562d6daccc55aebfabc41fd2
 build.scmRevision.url=scm\:git\:git@github.com\:jboss-integration/jboss-integration-platform-bom.git/teiid-quickstart-parent
-build.timestamp.millis=1463087437035
+build.timestamp.millis=1469457824646
 build.user=root
 build.version=2.1.0.redhat-62-7
-build.version.full=2.1.0.redhat-62-7-20160512rb06f646a66a33a4d33e538117ba8ddfe37c0e732
+build.version.full=2.1.0.redhat-62-7-20160725r1032454637b53e06562d6daccc55aebfabc41fd2
 build.year=2016

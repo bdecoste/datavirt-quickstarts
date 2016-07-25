@@ -52,8 +52,8 @@
                                 <configuration>
                                     <mainClass>JDBCClient</mainClass>
                                     <arguments>
-                                        <argument>localhost</argument>
-                                        <argument>31000</argument>
+                                        <argument>${hostname}</argument>
+                                        <argument>${port}</argument>
                                         <argument>${vdb}</argument>
                                         <argument>${sql}</argument>
                                     </arguments>
