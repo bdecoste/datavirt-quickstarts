@@ -6262,6 +6262,7 @@
 					</execution>
 				</executions>
 				<configuration>
+                                        <skip>true</skip>
 					<archive>
 						<manifest>
 							<addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
@@ -6279,9 +6280,13 @@
                 <executions>
                     <execution>
                         <id>attach-sources</id>
+                        <phase>none</phase>
                         <goals>
                             <goal>jar-no-fork</goal>
                         </goals>
+                        <configuration>
+                          <skip>true</skip>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
@@ -6292,10 +6297,13 @@
         <executions>
           <execution>
             <id>project-sources-archive</id>
-            <phase>initialize</phase>
+            <phase>none</phase>
             <goals>
               <goal>archive</goal>
             </goals>
+            <configuration>
+              <skip>true</skip>
+            </configuration>
           </execution>
         </executions>
       </plugin>
