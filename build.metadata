@@ -1,8 +1,8 @@
 #Created by buildmetadata-maven-plugin 1.5.2 ( SHA: 25e07c12 ) 
-#Mon Jul 25 12:15:24 PDT 2016
+#Tue Jul 26 07:21:30 PDT 2016
 build.artifactId=teiid-quickstart-parent
 build.copyright.year=2013-2016
-build.date=25.07.2016
+build.date=26.07.2016
 build.date.pattern=dd.MM.yyyy
 build.groupId=org.jboss.teiid.quickstart
 build.host.name=ose3x-master.example.com
@@ -11,7 +11,7 @@ build.java.runtime.name=OpenJDK Runtime Environment
 build.java.runtime.version=1.8.0_91-b14
 build.java.vendor=Oracle Corporation
 build.java.vm=OpenJDK 64-Bit Server VM
-build.maven.execution.cmdline=clean install
+build.maven.execution.cmdline=clean install -DskipTests
 build.maven.execution.goals=clean, install
 build.maven.execution.isRoot=true
 build.maven.execution.profile.active.central=settings.xml
@@ -26,10 +26,10 @@ build.os.arch=amd64
 build.os.name=Linux
 build.os.version=3.10.0-327.18.2.el7.x86_64
 build.scmRevision.date=25.07.2016
-build.scmRevision.id=57f7b57d5dcbd29a4d4596b77c7e793238cc0158
+build.scmRevision.id=aa10d8d1014ce1618ef2a637c6b5fb23a9625308
 build.scmRevision.url=scm\:git\:git@github.com\:jboss-integration/jboss-integration-platform-bom.git/teiid-quickstart-parent
-build.timestamp.millis=1469474121492
+build.timestamp.millis=1469542888556
 build.user=root
 build.version=2.1.0.redhat-62-7
-build.version.full=2.1.0.redhat-62-7-20160725r57f7b57d5dcbd29a4d4596b77c7e793238cc0158
+build.version.full=2.1.0.redhat-62-7-20160726raa10d8d1014ce1618ef2a637c6b5fb23a9625308
 build.year=2016
