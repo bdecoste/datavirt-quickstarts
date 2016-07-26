@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<vdb name="Hibernate_Portfolio" version="latest">
+<vdb name="Hibernate_Portfolio" version="1">
 
     <description>This VDB is utilized by Hibernate on top</description>
 
