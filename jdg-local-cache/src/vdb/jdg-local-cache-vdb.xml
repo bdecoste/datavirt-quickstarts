@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<vdb name="Jordan" version="1"> 
+<vdb name="Stocks" version="1"> 
     <description>Shows how to call an Infinispan local cache</description>
     
     <property name="UseConnectorMetadata" value="cached" />
