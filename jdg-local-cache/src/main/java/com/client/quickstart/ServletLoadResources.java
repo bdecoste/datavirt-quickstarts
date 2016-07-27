@@ -167,7 +167,7 @@ public class ServletLoadResources implements ServletContextListener {
  		System.out.println("!!!!!!!!!!!!!! BOOM createContainerUsingFile " + container);
 
 		try {
- 			if (container != null)
+ 			if (container == null)
 				container = new DefaultCacheManager("infinispan.xml");
 		} catch (IOException e) {
 			e.printStackTrace();
