@@ -99,6 +99,7 @@ public class ServletLoadResources implements ServletContextListener {
 	public void contextDestroyed(ServletContextEvent contextEvent) {
 		System.out.println("!!!!!!!!!!!!!! BOOM contextDestroyed ");
 		container.stop();
+  		container.
 	}
 
 	private void testCache() throws Exception {
@@ -164,10 +165,11 @@ public class ServletLoadResources implements ServletContextListener {
 	}
 
 	protected void createContainerUsingFile() throws Exception {
- 		System.out.println("!!!!!!!!!!!!!! BOOM createContainerUsingFile ");
+ 		System.out.println("!!!!!!!!!!!!!! BOOM createContainerUsingFile " + container);
 
 		try {
-			container = new DefaultCacheManager("infinispan.xml");
+ 			if (container != null)
+				container = new DefaultCacheManager("infinispan.xml");
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (org.infinispan.jmx.JmxDomainConflictException e){
