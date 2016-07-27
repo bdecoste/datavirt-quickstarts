@@ -2,7 +2,7 @@
 <vdb name="Stocks" version="1"> 
     <description>Shows how to call an Infinispan local cache</description>
     
-    <property name="UseConnectorMetadata" value="true" />
+    <property name="UseConnectorMetadata" value="cached" />
     
     <model name="StockCache" type="Physical">
         <property name="importer.useFullSchemaName" value="false"/>
