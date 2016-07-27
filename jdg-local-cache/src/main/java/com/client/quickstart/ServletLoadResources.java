@@ -99,7 +99,6 @@ public class ServletLoadResources implements ServletContextListener {
 	public void contextDestroyed(ServletContextEvent contextEvent) {
 		System.out.println("!!!!!!!!!!!!!! BOOM contextDestroyed ");
 		container.stop();
-  		container.
 	}
 
 	private void testCache() throws Exception {
