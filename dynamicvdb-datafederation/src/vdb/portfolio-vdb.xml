@@ -44,21 +44,11 @@
         <source name="h2-connector" translator-name="translator-h2" connection-jndi-name="java:/accounts-ds"/>
     </model>
 
-   <model name="TestModel">
-        <!-- 
-                       JDBC Import settings 
-          
-          importer.useFullSchemaName directs the importer to drop the source 
-          schema from the Teiid object name, so that the Teiid fully qualified name
-          will be in the form of <model name>.<table name>
-        -->
+   <!--model name="TestModel">
         <property name="importer.useFullSchemaName" value="false"/>
 
-         <!--
-                          This connector is defined to reference the H2 localDS" 
-          -->
         <source name="postgresql-connector" translator-name="translator-jdbc" connection-jndi-name="java:/testmodel-ds"/>
-    </model>
+    </model-->
     
    <model name="PersonalValuations">
         <property name="importer.headerRowNumber" value="1"/>
