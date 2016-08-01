@@ -30,7 +30,6 @@
         <module>hibernate-on-top-of-teiid</module>
         <module>webservices-as-a-datasource</module>
 		<module>jdg-local-cache</module>
-        <module>jdg-remote-cache</module>
         <module>simpleclient</module>
 	</modules>
 
