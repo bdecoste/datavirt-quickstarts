@@ -76,7 +76,7 @@ CREATE TABLE  PRODUCT (
 
 CREATE TABLE  HOLDINGS
 (
-   TRANSACTION_ID integer,
+   TRANSACTION_ID integer SERIAL,
    ACCOUNT_ID integer,
    PRODUCT_ID integer,
    PURCHASE_DATE timestamp,
