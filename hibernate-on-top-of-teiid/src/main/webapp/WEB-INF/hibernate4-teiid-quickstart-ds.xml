@@ -26,10 +26,10 @@
             <use-strict-min>false</use-strict-min>
             <flush-strategy>FailingConnectionOnly</flush-strategy>
         </pool>
-        <!--security>
+        <security>
             <user-name>user</user-name>
             <password>user</password>
-        </security-->
+        </security>
     </datasource> 
           
 </datasources>
