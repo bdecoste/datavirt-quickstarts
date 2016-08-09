@@ -2,7 +2,7 @@
                     <connection-url>jdbc:h2:mem:accounts;INIT=RUNSCRIPT FROM '/opt/eap/teiidfiles/customer-schema.sql';</connection-url>
                     <driver>h2</driver>
                     <security>
-                        <user-name>sa</user-name>
-                        <password>sa</password>
+                        <user-name>user</user-name>
+                        <password>user</password>
                     </security>
                 </datasource>
